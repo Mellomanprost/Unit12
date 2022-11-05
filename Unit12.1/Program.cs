@@ -7,11 +7,11 @@ namespace Unit12._1._5
     {
         static void Main(string[] args)
         {
-            List<User> users = new List<User>();
             User user1 = new User("Alex90", "Alex", true);
             User user2 = new User("Maximus", "Maxim", false);
             User user3 = new User("Gurman", "Gosha", true);
             User user4 = new User("Sunshine", "Ann", false);
+            List<User> users = new List<User>();
             users.Add(user1);
             users.Add(user2);
             users.Add(user3);
