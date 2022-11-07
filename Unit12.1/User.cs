@@ -29,6 +29,4 @@ namespace Unit12._1._5
 			Thread.Sleep(3000);
 		}
 	}
-
-
 }

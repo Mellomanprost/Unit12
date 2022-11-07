@@ -17,7 +17,7 @@ namespace Unit12._1._5
             users.Add(user3);
             users.Add(user4);
 
-            foreach(var user in users)
+            foreach (var user in users)
             {
                 Console.WriteLine($"Добро пожаловать {user.Name}!");
                 if (!user.IsPremium)
@@ -26,7 +26,6 @@ namespace Unit12._1._5
                     User.ShowAds();
                 }
                 Console.WriteLine("Вход в систему осуществлен!\n");
-
             }
         }
     }
